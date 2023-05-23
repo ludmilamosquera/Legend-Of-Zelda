@@ -1,0 +1,49 @@
+figcaption {
+    text-align: center;
+    caption-side: bottom;
+    color:white
+  }
+
+.conteiner-acordion{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+
+}
+
+body {
+    background-image: url("../assets/img/black.jpg");
+}
+
+.image {
+        max-width: 500px;
+}
+
+.menu-container {
+    margin-left: 2000px;
+    
+    
+  }
+
+.fuente {
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: medium ;
+    
+}
+
+.strong{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: medium ;
+    font-weight: bold;
+}
+
+.icon{
+    max-width: 180px;
+    max-height: 180px;
+}
