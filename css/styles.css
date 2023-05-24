@@ -23,15 +23,10 @@ body {
 
 .menu-container {
     margin-left: 2000px;
-    
-    
   }
 
 .fuente {
-    display: flex;
-    justify-content: center;
     color:white;
-    font-size: medium ;
     
 }
 
@@ -39,11 +34,33 @@ body {
     display: flex;
     justify-content: center;
     color:white;
-    font-size: medium ;
     font-weight: bold;
 }
 
 .icon{
-    max-width: 180px;
-    max-height: 180px;
+    max-width: 200px;
+    max-height:200px;
+}
+
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    }
+
+
+.collage > img{
+    width:  500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.col{
+    overflow: hidden;
+}
+
+.conteiner1{
+    margin: 200px -300px 200px 0;
+
 }
