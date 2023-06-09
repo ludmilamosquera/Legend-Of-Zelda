@@ -1,0 +1,43 @@
+figcaption {
+    text-align: center;
+    caption-side: bottom;
+    color: white;
+  }
+
+.fuente {
+    color: white;
+  }
+
+  .strong {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+.background{
+    color: aliceblue;
+    background-color: rgb(65, 30, 11);
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .img__description {
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+
+.titulo{
+    color: #ffffff;
+    
+}
